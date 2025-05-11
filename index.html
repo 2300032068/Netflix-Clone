@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<nav class="navbar navbar-dark bg-black"> 
+    <a class="navbar-brand" href="#">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/400px-Netflix_2015_logo.svg.png" height="40">
+    </a>
+    <button class="btn btn-outline-light my-2 my-sm-0" id="signinBtn">Sign In</button>
+</nav>
+<div class="container-fluid first-page">
+    <h1 class="mt-5">Unlimited movies, TV shows, and more.</h1>
+    <h1>Watch anywhere. Cancel anytime.</h1>
+    <p style="font-size: 21px;">Ready to watch? Enter your email to create or restart your membership.</p>
+    <div class="input-group mb-3">
+        <input type="email" class="form-control" placeholder="Email address" aria-label="Email address" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <button class="btn btn-danger" type="button">Get Started</button>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="col-lg-4 col-md-6 col-sm-8">
+        <form class="login-form">
+            <h2 class="mb-4">Sign In</h2>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password" required>
+            </div>
+            <button type="submit" class="btn btn-danger btn-block">Sign In</button>
+            <div class="signup-link mt-3">
+                <p>New to Netflix? <a href="#" class="text-danger">Sign up now.</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://orangecubeproject.com/wp-content/uploads/2021/01/210109_HORIZONTAL_NAMES.jpg" alt="TV" class="img-fluid">       
+        </div>
+        <div class="col-md-6">
+            <h1>Enjoy on Your TV</h1>
+            <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>Download Your Shows</h1>
+            <p>Save your favorites easily and always have something to watch.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="https://cdnb.artstation.com/p/assets/images/images/026/475/643/large/spencer-owen-i-am-lisa-landscape.jpg?1588873984" alt="TV" class="img-fluid">
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/706b9474134343.5c239806af449.jpg" alt="TV" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <h1>Watch Everywhere</h1>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>Create Profile for Kids</h1>
+            <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0NfNyS0ceh4SLjIwTDarfns-9H8DAOgw5Aw&usqp=CAU" alt="TV" class="img-fluid">
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <h1>Frequently Asked Questions</h1>
+    <div class="accordion" id="faqAccordion">
+        <div class="card">
+            <div class="card-header" id="faqHeading1">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                        What is Netflix?
+                    </button>
+                </h2>
+            </div>
+            <div id="faqCollapse1" class="collapse" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
+                <div class="card-body">
+                    Netflix is a streaming service that offers a wide variety of TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="faqHeading2">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="true" aria-controls="faqCollapse2">
+                        How much does Netflix cost?
+                    </button>
+                </h2>
+            </div>
+            <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent="#faqAccordion">
+                <div class="card-body">
+                    Netflix offers several membership plans to suit your needs. Your plan will determine how many people can stream Netflix content at once and whether you can view in Standard Definition (SD), High Definition (HD), or Ultra High Definition (UHD).
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="faqHeading3">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse3" aria-expanded="true" aria-controls="faqCollapse3">
+                        Where can I watch?
+                    </button>
+                </h2>
+            </div>
+            <div id="faqCollapse3" class="collapse" aria-labelledby="faqHeading3" data-parent="#faqAccordion">
+                <div class="card-body">
+                    You can watch Netflix on your TV, computer, mobile device, or streaming media player. Netflix is also available on Smart TVs, gaming consoles, and set-top boxes.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="faqHeading4">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse4" aria-expanded="true" aria-controls="faqCollapse4">
+                        How do I cancel my Netflix subscription?
+                    </button>
+                </h2>
+            </div>
+            <div id="faqCollapse4" class="collapse" aria-labelledby="faqHeading4" data-parent="#faqAccordion">
+                <div class="card-body">
+                    You can cancel your Netflix subscription at any time. Simply log in to your Netflix account and select the "Cancel Membership" option under your account settings.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="faqHeading5">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse5" aria-expanded="true" aria-controls="faqCollapse5">
+                        What can I watch on Netflix?
+                    </button>
+                </h2>
+            </div>
+            <div id="faqCollapse5" class="collapse" aria-labelledby="faqHeading5" data-parent="#faqAccordion">
+                <div class="card-body">
+                    Netflix offers a vast library of TV shows, movies, documentaries, anime, and original content across various genres. From popular series to award-winning films, there's something for everyone on Netflix.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="faqHeading6">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse6" aria-expanded="true" aria-controls="faqCollapse6">
+                        Is Netflix good for kids?
+                    </button>
+                </h2>
+            </div>
+            <div id="faqCollapse6" class="collapse" aria-labelledby="faqHeading6" data-parent="#faqAccordion">
+                <div class="card-body">
+                    Netflix offers a dedicated section for kids with a wide selection of family-friendly TV shows and movies. Parents can also set up parental controls to monitor and restrict their children's viewing.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-5 about-us">
+    <h1>About Us</h1>
+    <ul>
+        <li><a href="tel:000-800-919-1694">Questions? Call 000-800-919-1694</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Help Centre</a></li>
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Media Centre</a></li>
+        <li><a href="#">Investor Relations</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Ways to Watch</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Cookie Preferences</a></li>
+        <li><a href="#">Corporate Information</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Speed Test</a></li>
+        <li><a href="#">Legal Notices</a></li>
+        <li><a href="#">Only on Netflix</a></li>
+    </ul>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script> <!-- Link to the JS file -->
+</body>
+</html>
